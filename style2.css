@@ -1,0 +1,112 @@
+*{
+     padding: 0%;
+     margin: 0%;
+     text-align: center;
+     position: relative;
+}
+body{
+     background-color: aqua;
+     background-image: url("./drug.avif");
+   background-repeat: no-repeat;
+   background-size: cover;
+   text-decoration: none;
+   border: solid 4px ;
+  
+
+}
+#header{
+     margin: 20px;
+     color:red;
+     font-size: 50px;
+     background-origin: padding-box;
+     box-decoration-break:inherit;
+     font-family: Arial, Helvetica, sans-serif;
+      border: 30px;
+     border-radius: 50%;
+     border-bottom: 30px;
+     border-color: rgb(205, 61, 13);
+     border-width: 20px;
+     
+
+
+
+}
+.cols{
+  color:black;
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background-color:transparent;
+  outline: none;
+  font-size: 30px;
+  border-color: aqua;
+     
+} 
+.cols > label{
+     color: black;
+     font-family: Arial, Helvetica, sans-serif;
+     font-style: inherit;
+     font-weight: 100px;
+     border-radius: 30px;
+     box-sizing: inherit;
+     background-color: transparent;
+     border-color: aqua;
+    
+     
+
+
+}
+.cols>input{
+     padding: 10px;
+     font-size: 18px;
+     border-radius: 30px;
+     background-color: transparent;
+     border-color: aqua;
+     
+}
+
+.cols>label:hover, .cols>input:hover, .cols>textarea:hover{
+     color: red;
+     background-color:aqua;
+   
+
+}
+#drugCheck,#medicine{
+     font-size: 20px;
+     color:black;
+     border-radius: 30px;
+     background-color: transparent;
+     border-color: aqua;
+    
+}
+#drugCheck:hover{
+     color: red;
+     background-color: aqua;
+}
+#medicine:hover{
+     color: red;
+     background-color: aqua;
+}
+.registerbtn{
+     border-radius: 20px;
+     border-color: rgb(255, 60, 0);
+     box-sizing: border-box;
+     box-sizing: 50px;
+     color: black;
+     background-color: red;
+     cursor: pointer;
+     padding: 3px;
+     margin: 10px;
+}
+.terms{
+     color: red;
+     font-size: 20px;
+}
+.signin
+{
+     font-size: 30px;
+     color: red;
+     background-color: transparent;
+}
